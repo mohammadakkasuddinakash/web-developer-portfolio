@@ -41,8 +41,8 @@ nav ul a{
 
 }
 .btn-primary{
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 45px;
     border-radius: 5px;
     border: none;
     background: rgb(253, 110, 10);
@@ -51,9 +51,18 @@ nav ul a{
     font-weight: 700;
     line-height: 15px;
     margin-right: 25px;
-    
-
-    
+}
+.btn2-primary{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 110, 10);
+    background: rgb(255, 255, 255);
+    color: rgb(253, 110, 10);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-right: 25px;
 }
 /* Banner Styles */
 
@@ -180,4 +189,108 @@ nav ul a{
     font-weight: 700;
     line-height: 25px;
     color: rgb(24, 24, 24);
+}
+
+/* Resume Section styles*/
+.resume-content{
+    display: flex;
+    gap: 20px;
+}
+
+
+.resume-container{
+    margin: 131px 155px;
+    /* text-align: center; */
+}
+
+.resume-container-title{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.resume-content-headtitle{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgb(71, 71, 71);
+    margin: 15px 0;
+}
+.resume-content-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(71, 71, 71);
+}
+.resume-content-subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(117, 117, 117);
+    margin: 10px 0;
+}
+.resume-content p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(117, 117, 117);
+}
+hr{
+    margin: 10px 5px;
+}
+.btn-dowonload{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Footer Section Styles */
+footer{
+    display: flex;
+    padding: 130px 170px;
+    gap: 20px;
+    background-color: rgb(255, 248, 243) ;
+}
+.foot-form{
+    display: flex;
+    flex-direction: column;
+}
+.foot-subtitle{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(24, 24, 24);
+    
+}
+.foot-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(71, 71, 71);
+    padding: 10px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-input{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(117, 117, 117);
 }
